@@ -8,12 +8,11 @@ export default function Footer() {
                     <span className="text-xl md:text-2xl">Universidad del Cauca</span>
                     <span className="text-sm md:text-base">NIT. 891500319-2</span>
                 </div>
-
                 <div className="flex gap-5 h-16 items-center text-[12px] md:text-sm">
                     <div className="flex flex-col gap-2 items-start md:items-end">
                         <p>Sistema de Pensiones</p>
                         <p>Vicerrectoría</p>
-                        <p>d-civil@unicauca.edu.co</p>
+                        <p>Ejemplocorreo@unicauca.edu.co</p>
                     </div>
                     <div className="border border-[#73737e] h-full"></div>
                     
@@ -26,6 +25,5 @@ export default function Footer() {
             </div>
             <MainFooter />
         </div>
-
     );
 }

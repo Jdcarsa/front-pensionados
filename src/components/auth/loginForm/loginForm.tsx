@@ -1,17 +1,18 @@
-
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import LoginHeader from "./header/header";
 import { Label } from "../../ui/label";
 import { Input } from "../../ui/input";
 import { Button } from "../../ui/button";
 
-function LoginForm() {
+export default function LoginForm() { 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const navigate = useNavigate();
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        console.log("Datos enviados:", { email, password });
+        navigate("/home");
     };
 
     return (
@@ -20,7 +21,7 @@ function LoginForm() {
                 <LoginHeader />
             </div>
             <div className="flex flex-col justify-center items-center w-full h-full py-10 md:py-0">
-            <div className="flex flex-col items-start w-1/2">
+                <div className="flex flex-col items-start w-1/2">
                     <h1 className="text-2xl md:text-3xl text-blue font-bold">
                         Inicio de sesión
                     </h1>
@@ -59,5 +60,3 @@ function LoginForm() {
         </div>
     );
 }
-
-export default LoginForm;
