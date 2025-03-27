@@ -2,7 +2,7 @@ import MainFooter from "../mainFooter/mainFooter";
 
 export default function Footer() {
     return (
-        <div className="flex flex-col gap-20 md:gap-0 justify-between h-full md:h-80 bg-security text-[#73737e] p-8">
+        <div className="flex flex-col gap-20 md:gap-0 justify-between h-full md:h-80 bg-[#EEEBEB] text-[#73737e] p-8">
             <div className="flex justify-between flex-col md:flex-row gap-20">
                 <div className="flex flex-col gap-3 font-bold">
                     <span className="text-xl md:text-2xl">Universidad del Cauca</span>

@@ -52,7 +52,7 @@ export default function LoginForm() {
                             className="input-class"
                         />
                     </div>
-                    <Button type="submit" className="button-class">
+                    <Button type="submit" className="button-class rounded-lg">
                         Iniciar sesión
                     </Button>
                 </form>

@@ -28,7 +28,7 @@ const EmailInput = React.forwardRef<HTMLInputElement, React.ComponentProps<"inpu
                 <input
                     type="email"
                     className={cn(
-                        "flex h-8 md:h-9 w-full rounded-2xl border border-blueDark/20 bg-transparent px-3 py-1 text-[12px] md:text-sm shadow-sm transition-colors placeholder:text-blueDark/70 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
+                        "flex h-8 md:h-9 w-full rounded-lg border border-blueDark bg-transparent px-3 py-1 text-[12px] md:text-sm shadow-sm transition-colors placeholder:text-blueDark/70 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
                         "pr-9",
                         className
                     )}
